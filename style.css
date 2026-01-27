@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    text-decoration: none;
+    background-color: rgb(79, 79, 246);
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.brand a {
+ 
+    padding-left: 4vw;
+    font-weight: bolder;
+}
+.menubar a {
+  
+    padding: 0px 17px 0px 17px;
+    
+}
+.menubar{
+    display: flex;
+    justify-content:space-around;
+  
+}
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 19px;
+}
+
+.menubox a:hover {
+    height: 12px;
+    width: 12px;
+    background-color: black;
+   box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
