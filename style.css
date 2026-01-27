@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
 }
-.navbar{
+.header{
     text-decoration: none;
-    background-color: rgb(79, 79, 246);
-    height: 68px;
+    background-color:rgb(14 18 27);
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
