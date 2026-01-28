@@ -4,9 +4,8 @@
   font-family: sans-serif;
 }
 .flex {
-  position: relative;
   height: 46px;
-  padding: 14px  46px;
+  padding: 14px 46px;
   background-color: hsl(220 30% 8%);
   display: flex;
 }
@@ -37,32 +36,40 @@ a {
 }
 .search {
   margin-left: 28vw;
-  height: 29px;
+  height: 33px;
   border-radius: 10px;
+  background-color: #46464a;
+  width: 15vw;
+  border-color: #27272a;
+  color: white;
+  padding-left: 18px;
 }
-.log{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 12px;
-    
+input:focus {
+  outline: none;
 }
-.log a{
-    height: 23px;
-    padding: 6px;
-    margin-bottom: 15px;
-    border: 1px solid hsl(229, 14%, 23%);;
-    padding-left: 21px;
-    margin-left: 12px;
-    border-radius: 8px;
+
+.log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
 }
-.log > .signup{
-    width: 66px;
+.log a {
+  height: 23px;
+  padding: 6px;
+  margin-bottom: 15px;
+  border: 1px solid hsl(229, 14%, 23%);
+  padding-left: 21px;
+  margin-left: 12px;
+  border-radius: 8px;
 }
-.log > .login{
-    padding-left: 18px;
-    width: 52px;
+.log > .signup {
+  width: 66px;
 }
-.log a:hover{
-    background-color: hsl(229, 14%, 23%);
+.log > .login {
+  padding-left: 18px;
+  width: 52px;
+}
+.log a:hover {
+  background-color: hsl(229, 14%, 23%);
 }
